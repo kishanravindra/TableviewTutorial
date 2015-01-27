@@ -13,6 +13,12 @@
 		0951945D1A68CB1A004EF8C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0951945C1A68CB1A004EF8C0 /* Images.xcassets */; };
 		095194601A68CB1A004EF8C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0951945E1A68CB1A004EF8C0 /* LaunchScreen.xib */; };
 		0951946C1A68CB1A004EF8C0 /* TableviewTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0951946B1A68CB1A004EF8C0 /* TableviewTutorialTests.swift */; };
+		09A63A411A7787BA008EFE5E /* Apple_Swift_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A63A3C1A7787BA008EFE5E /* Apple_Swift_Logo.png */; };
+		09A63A421A7787BA008EFE5E /* Flag_of_India.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A63A3D1A7787BA008EFE5E /* Flag_of_India.png */; };
+		09A63A431A7787BA008EFE5E /* Flag_of_Palestine.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A63A3E1A7787BA008EFE5E /* Flag_of_Palestine.png */; };
+		09A63A441A7787BA008EFE5E /* Flag_of_Thailand.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A63A3F1A7787BA008EFE5E /* Flag_of_Thailand.png */; };
+		09A63A451A7787BA008EFE5E /* Flag_of_United_States.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A63A401A7787BA008EFE5E /* Flag_of_United_States.png */; };
+		09A63A481A77887A008EFE5E /* qwinix-logo-fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A63A471A77887A008EFE5E /* qwinix-logo-fb.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		095194651A68CB1A004EF8C0 /* TableviewTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableviewTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0951946A1A68CB1A004EF8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0951946B1A68CB1A004EF8C0 /* TableviewTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewTutorialTests.swift; sourceTree = "<group>"; };
+		09A63A3C1A7787BA008EFE5E /* Apple_Swift_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple_Swift_Logo.png; sourceTree = "<group>"; };
+		09A63A3D1A7787BA008EFE5E /* Flag_of_India.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_India.png; sourceTree = "<group>"; };
+		09A63A3E1A7787BA008EFE5E /* Flag_of_Palestine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Palestine.png; sourceTree = "<group>"; };
+		09A63A3F1A7787BA008EFE5E /* Flag_of_Thailand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Thailand.png; sourceTree = "<group>"; };
+		09A63A401A7787BA008EFE5E /* Flag_of_United_States.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_United_States.png; sourceTree = "<group>"; };
+		09A63A471A77887A008EFE5E /* qwinix-logo-fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qwinix-logo-fb.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,7 @@
 				095194551A68CB1A004EF8C0 /* AppDelegate.swift */,
 				095194571A68CB1A004EF8C0 /* ViewController.swift */,
 				095194591A68CB1A004EF8C0 /* Main.storyboard */,
+				09A63A461A7787C1008EFE5E /* Images */,
 				0951945C1A68CB1A004EF8C0 /* Images.xcassets */,
 				0951945E1A68CB1A004EF8C0 /* LaunchScreen.xib */,
 				095194531A68CB1A004EF8C0 /* Supporting Files */,
@@ -110,6 +123,19 @@
 				0951946A1A68CB1A004EF8C0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09A63A461A7787C1008EFE5E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				09A63A3C1A7787BA008EFE5E /* Apple_Swift_Logo.png */,
+				09A63A3D1A7787BA008EFE5E /* Flag_of_India.png */,
+				09A63A3E1A7787BA008EFE5E /* Flag_of_Palestine.png */,
+				09A63A3F1A7787BA008EFE5E /* Flag_of_Thailand.png */,
+				09A63A401A7787BA008EFE5E /* Flag_of_United_States.png */,
+				09A63A471A77887A008EFE5E /* qwinix-logo-fb.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +219,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0951945B1A68CB1A004EF8C0 /* Main.storyboard in Resources */,
+				09A63A411A7787BA008EFE5E /* Apple_Swift_Logo.png in Resources */,
 				095194601A68CB1A004EF8C0 /* LaunchScreen.xib in Resources */,
+				09A63A481A77887A008EFE5E /* qwinix-logo-fb.png in Resources */,
 				0951945D1A68CB1A004EF8C0 /* Images.xcassets in Resources */,
+				09A63A431A7787BA008EFE5E /* Flag_of_Palestine.png in Resources */,
+				09A63A451A7787BA008EFE5E /* Flag_of_United_States.png in Resources */,
+				09A63A421A7787BA008EFE5E /* Flag_of_India.png in Resources */,
+				09A63A441A7787BA008EFE5E /* Flag_of_Thailand.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +437,7 @@
 				095194711A68CB1A004EF8C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		095194721A68CB1A004EF8C0 /* Build configuration list for PBXNativeTarget "TableviewTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				095194741A68CB1A004EF8C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
